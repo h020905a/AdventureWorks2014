@@ -273,4 +273,9 @@
     <Build Include="Sales\XMLSchemaCollections\StoreSurveySchemaCollection.sql" />
     <Build Include="ExtendedProperties.sql" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="dbo\Scripts\Deployment\deployPackage.ps1">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
 </Project>
