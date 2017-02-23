@@ -135,7 +135,8 @@
     <Folder Include="HumanResources\XMLSchemaCollections\" />
     <Folder Include="Production\XMLSchemaCollections\" />
     <Folder Include="Sales\XMLSchemaCollections\" />
-    <Folder Include="dbo\Deployment" />
+    <Folder Include="dbo\Scripts" />
+    <Folder Include="dbo\Scripts\Deployment" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Production\Tables\ScrapReason.sql" />
