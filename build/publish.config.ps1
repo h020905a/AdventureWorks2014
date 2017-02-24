@@ -1,2 +1,2 @@
-﻿$nuGetRepositoryUri = "http://maven.platform.tm.tmcs:8081/nexus/service/local/nuget/nuget-internal/"
-$apiKey = "5efc4ef0-a48e-3784-8808-c6dc6d31f9ec"
+﻿$nuGetRepositoryUri = "http://localhost:8081/repository/Nuget-UniFeed/"
+$apiKey = "e6b32537-31ff-3562-aa37-4e13d95f6b3c"
