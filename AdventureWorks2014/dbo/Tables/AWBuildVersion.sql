@@ -3,6 +3,7 @@
     [Database Version]    NVARCHAR (25) NOT NULL,
     [VersionDate]         DATETIME      NOT NULL,
     [ModifiedDate]        DATETIME      CONSTRAINT [DF_AWBuildVersion_ModifiedDate] DEFAULT (getdate()) NOT NULL,
+    [OctopusReleaseNo] VARCHAR(10) NULL, 
     CONSTRAINT [PK_AWBuildVersion_SystemInformationID] PRIMARY KEY CLUSTERED ([SystemInformationID] ASC)
 );
 
