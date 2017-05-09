@@ -273,6 +273,7 @@
     <Build Include="Sales\XMLSchemaCollections\StoreSurveySchemaCollection.sql" />
     <Build Include="ExtendedProperties.sql" />
     <Build Include="dbo\Stored Procedures\uspTrainingExample.sql" />
+    <Build Include="dbo\Tables\DBVersion.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="dbo\Scripts\Deployment\deployPackage.ps1">
